@@ -3,15 +3,17 @@ package com.example.crud.controller;
 import com.example.crud.domain.Modelo;
 import com.example.crud.service.ModeloService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/modelo")
 @AllArgsConstructor
+@RequestMapping("/modelo")
 public class ModeloController {
 
+    @Autowired
     private final ModeloService service;
 
     @GetMapping

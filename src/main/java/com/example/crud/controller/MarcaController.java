@@ -3,15 +3,17 @@ package com.example.crud.controller;
 import com.example.crud.domain.Marca;
 import com.example.crud.service.MarcaService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/marca")
 @AllArgsConstructor
+@RequestMapping("/marca")
 public class MarcaController {
 
+    @Autowired
     private final MarcaService service;
 
     @GetMapping
