@@ -9,9 +9,10 @@
 
 ## Passos para Rodar a Aplicação
 
-1. Abra a pasta do projeto no seu editor de código favorito.
-2. Navegue até o caminho: `src/main/java/com/example/crud`.
-3. Clique no arquivo `CrudApplication` para iniciar a aplicação.
+1. Clone o referente projeto que está publico para sua area de trabalho!
+2. Abra a pasta do projeto no seu editor de código favorito.
+3. Navegue até o caminho: `src/main/java/com/example/crud`.
+4. Clique no arquivo `CrudApplication` para iniciar a aplicação.
 
 ## Endereço da API
 
