@@ -19,7 +19,7 @@ A API estará disponível em `http://localhost:8080`.
 
 ## Operações Suportadas
 
-Você pode realizar as quatro operações básicas através do Maven:
+Você pode realizar as quatro operações básicas que podem ser feitas através do Insomnia:
 
 - **GET**: Recuperar dados
 - **PUT**: Atualizar dados
