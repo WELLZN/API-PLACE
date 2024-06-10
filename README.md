@@ -1,4 +1,4 @@
-# SEJA BEM VINDO A API USANDO 
+# SEJA BEM VINDO A API
 
 🚀 **Tecnologias Utilizadas**:
 
