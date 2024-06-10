@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/marca")
 public class MarcaController {
-
+    //localhost:8080/marca
     @Autowired
     private final MarcaService service;
 

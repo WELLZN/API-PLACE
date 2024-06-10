@@ -1,18 +1,16 @@
 package com.example.crud.controller;
-
 import com.example.crud.domain.Modelo;
 import com.example.crud.service.ModeloService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
 @AllArgsConstructor
 @RequestMapping("/modelo")
 public class ModeloController {
-
+    //localhost:8080/modelo
     @Autowired
     private final ModeloService service;
 
